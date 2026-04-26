@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-    res.end("Hello from DevOps Project New Version ");
+    res.end("Hello from DevOps Project New Version, poll scm wokring fine");
 
 });
 
